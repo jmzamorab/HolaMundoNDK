@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HolaMundoNDK</string>
+    <string name="hello_world">Hola Mundo NDK</string>
+</resources>
