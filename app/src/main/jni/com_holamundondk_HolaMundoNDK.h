@@ -15,6 +15,22 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_holamundondk_HolaMundoNDK_dameDatos
   (JNIEnv *, jobject);
 
+/*
+ * Class:     com_holamundondk_HolaMundoNDK
+ * Method:    funcion1
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_com_holamundondk_HolaMundoNDK_funcion1
+  (JNIEnv *, jobject, jstring);
+
+/*
+ * Class:     com_holamundondk_HolaMundoNDK
+ * Method:    funcion2
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_com_holamundondk_HolaMundoNDK_funcion2
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif
